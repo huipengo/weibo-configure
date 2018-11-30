@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "WBServiceItem.h"
+@class WBServiceItem;
 
 /** 当前网络环境 */
 FOUNDATION_EXPORT NSString *const wbCurrentServiceEnviroment;

@@ -8,7 +8,7 @@
 
 #import "WBRootViewController.h"
 #import "WBServiceConfigureController.h"
-//#import "WBMotionManager.h"
+#import "WBMotionManager.h"
 
 @interface WBRootViewController ()
 
@@ -27,11 +27,11 @@
 
 
 #pragma mark -- FLEX 摇一摇
-//- (void)motionEnded:(UIEventSubtype)motion withEvent:(UIEvent *)event {
-//    [WBMotionManager wb_motionEnded:motion
-//                          withEvent:event
-//               sourceViewController:self];
-//    [super motionEnded:motion withEvent:event];
-//}
+- (void)motionEnded:(UIEventSubtype)motion withEvent:(UIEvent *)event {
+    [WBMotionManager wb_motionEnded:motion
+                          withEvent:event
+               sourceViewController:self];
+    [super motionEnded:motion withEvent:event];
+}
 
 @end

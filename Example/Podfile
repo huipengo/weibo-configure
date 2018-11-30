@@ -5,9 +5,9 @@ inhibit_all_warnings!
 
 target 'weibo-configure_Example' do
   
-  pod 'weibo-configure', :path => '../', :configurations => ['Debug'], :subspecs => [
-      'wb-service-configure'
-  ]
+  pod 'weibo-configure/wb-service-configure', :path => '../', :configurations => ['Debug']
+  pod 'weibo-configure/wb-motion', :path => '../', :configurations => ['Debug']
+  pod 'weibo-configure/wb-fps', :path => '../', :configurations => ['Debug']
 
   target 'weibo-configure_Tests' do
     inherit! :search_paths

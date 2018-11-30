@@ -10,6 +10,7 @@
 #import "WBServiceConfigureCell.h"
 #import "WBServiceConfigure.h"
 #import "WBServiceConfigureHelper.h"
+#import "WBServiceItem.h"
 
 static CGFloat const kHeader_Height = 10.0f;
 static CGFloat const kCell_Height   = 50.0f;

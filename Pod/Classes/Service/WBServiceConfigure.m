@@ -8,6 +8,7 @@
 
 #import "WBServiceConfigure.h"
 #import <YYModel/YYModel.h>
+#import "WBServiceItem.h"
 
 static NSString *const wbName = @"name";
 static NSString *const wbHost = @"host";

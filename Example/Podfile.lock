@@ -1,11 +1,19 @@
 PODS:
   - MBProgressHUD (1.1.0)
+  - weibo-configure/wb-flex (0.0.1)
+  - weibo-configure/wb-fps (0.0.1)
+  - weibo-configure/wb-motion (0.0.1):
+    - weibo-configure/wb-flex
+    - weibo-configure/wb-fps
+    - weibo-configure/wb-service-configure
   - weibo-configure/wb-service-configure (0.0.1):
     - MBProgressHUD (>= 1.1.0)
     - YYModel (>= 1.0.4)
   - YYModel (1.0.4)
 
 DEPENDENCIES:
+  - weibo-configure/wb-fps (from `../`)
+  - weibo-configure/wb-motion (from `../`)
   - weibo-configure/wb-service-configure (from `../`)
 
 SPEC REPOS:
@@ -19,9 +27,9 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
-  weibo-configure: a77dc6ae1a5551c10a525bfaf424d78a803dd943
+  weibo-configure: 76c87df204b19e42acaaadae148382d7c5d9d20e
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
 
-PODFILE CHECKSUM: 7c1c21e95145e8a06b3b076e8930891702a0ccb8
+PODFILE CHECKSUM: d4b27b431e3a1fb428f0e6a59168b2f83c5cbfeb
 
 COCOAPODS: 1.5.3

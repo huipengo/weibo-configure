@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "WBServiceItem.h"
+@class WBServiceItem;
 
 @interface WBServiceConfigureCell : UITableViewCell
 

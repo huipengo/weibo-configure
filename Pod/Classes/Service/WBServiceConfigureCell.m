@@ -7,6 +7,7 @@
 //
 
 #import "WBServiceConfigureCell.h"
+#import "WBServiceItem.h"
 
 @interface WBServiceConfigureCell ()
 

@@ -2,7 +2,6 @@
   "name": "weibo-configure",
   "version": "0.0.1",
   "summary": "weibo-configure is a developer debug Tool...",
-  "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/huipengo/weibo-configure",
   "license": {
     "type": "MIT",
@@ -23,7 +22,7 @@
     "UIKit",
     "Foundation"
   ],
-  "default_subspecs": "wb-motion",
+  "default_subspecs": "wb-service-configure",
   "subspecs": [
     {
       "name": "wb-motion",
