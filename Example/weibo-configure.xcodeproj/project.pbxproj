@@ -302,7 +302,7 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-weibo-configure_Example/Pods-weibo-configure_Example-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-weibo-configure_Example/Pods-weibo-configure_Example-resources.sh",
 				"${PODS_ROOT}/../../Pod/Classes/Service/WBServiceConfigureCell.xib",
 				"${PODS_ROOT}/../../Pod/Classes/Service/WBServiceConfigureController.xib",
 				"${PODS_ROOT}/../../Pod/Classes/Service/Service.bundle",
@@ -317,7 +317,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-weibo-configure_Example/Pods-weibo-configure_Example-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-weibo-configure_Example/Pods-weibo-configure_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C0A943E54CC3EE62BAD32E2C /* [CP] Check Pods Manifest.lock */ = {
