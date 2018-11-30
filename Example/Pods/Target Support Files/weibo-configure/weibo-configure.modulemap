@@ -1,0 +1,6 @@
+framework module weibo_configure {
+  umbrella header "weibo-configure-umbrella.h"
+
+  export *
+  module * { export * }
+}

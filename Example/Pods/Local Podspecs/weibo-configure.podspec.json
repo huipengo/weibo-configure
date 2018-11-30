@@ -1,0 +1,65 @@
+{
+  "name": "weibo-configure",
+  "version": "0.0.1",
+  "summary": "weibo-configure is a developer debug Tool...",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/huipengo/weibo-configure",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "huipengo": "penghui_only@163.com"
+  },
+  "source": {
+    "git": "https://github.com/huipengo/weibo-configure.git",
+    "tag": "0.0.1"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "requires_arc": true,
+  "frameworks": [
+    "UIKit",
+    "Foundation"
+  ],
+  "default_subspecs": "wb-motion",
+  "subspecs": [
+    {
+      "name": "wb-motion",
+      "source_files": "Pod/Classes/Motion/*.{h,m}",
+      "dependencies": {
+        "weibo-configure/wb-service-configure": [
+
+        ],
+        "weibo-configure/wb-fps": [
+
+        ],
+        "weibo-configure/wb-flex": [
+
+        ]
+      }
+    },
+    {
+      "name": "wb-service-configure",
+      "source_files": "Pod/Classes/Service/*.{h,m}",
+      "resources": "Pod/Classes/Service/*.{bundle,xib}",
+      "dependencies": {
+        "YYModel": [
+          ">= 1.0.4"
+        ],
+        "MBProgressHUD": [
+          ">= 1.1.0"
+        ]
+      }
+    },
+    {
+      "name": "wb-fps",
+      "source_files": "Pod/Classes/FPS/*.{h,m}"
+    },
+    {
+      "name": "wb-flex",
+      "source_files": "Pod/Classes/FLEX_io/**/*.{h,m}"
+    }
+  ]
+}

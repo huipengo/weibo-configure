@@ -1,0 +1,27 @@
+PODS:
+  - MBProgressHUD (1.1.0)
+  - weibo-configure/wb-service-configure (0.0.1):
+    - MBProgressHUD (>= 1.1.0)
+    - YYModel (>= 1.0.4)
+  - YYModel (1.0.4)
+
+DEPENDENCIES:
+  - weibo-configure/wb-service-configure (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - MBProgressHUD
+    - YYModel
+
+EXTERNAL SOURCES:
+  weibo-configure:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  weibo-configure: a77dc6ae1a5551c10a525bfaf424d78a803dd943
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+
+PODFILE CHECKSUM: 7c1c21e95145e8a06b3b076e8930891702a0ccb8
+
+COCOAPODS: 1.5.3
